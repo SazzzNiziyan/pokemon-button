@@ -1,7 +1,5 @@
 # 🔴 Pokémon Button – A Mini Fun Project!
 
-I just completed this creative mini-project during my batch at **Sheryians Coding School**, under the mentorship of **Sharthak sir**.
-
 This interactive webpage combines fun visuals and simple logic using core HTML, CSS, and JavaScript.
 
 ---
@@ -38,12 +36,6 @@ This project helped me strengthen my understanding of:
 - ✅ Dynamic styling and animations
 - ✅ Audio control using HTML `<audio>`
 - ✅ Creating clean UIs with CSS
-
----
-
-## 🙏 Special Thanks
-
-Huge thanks to **Sheryians Coding School** and **Sharthak sir** for creating a supportive and fun learning environment! 🙌
 
 ---
 
