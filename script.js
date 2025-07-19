@@ -22,7 +22,7 @@ volumeDownIcon.addEventListener("click", function() {
     volumeMuteIcon.style.display = "block"; // Show volume mute icon
     // audio.pause(); // Pause audio when muted
     // audio.currentTime = 0; // Reset audio to the beginning
-    body.removeChild(document.querySelector('.img')); // Remove the last image 
+    // body.removeChild(document.querySelector('.img')); // Remove the last image 
 });
 
 
@@ -32,7 +32,7 @@ function btnOnceWorked() {
     audio.volume = 0.5; // Set volume to 50%
     volumeMuteIcon.style.display = "none"; // Hide volume mute icon
     volumeDownIcon.style.display = "block"; // Show volume down icon
-    btn.removeEventListener("click", btnOnceWorked);
+    // btn.removeEventListener("click", btnOnceWorked);
     flag = 1; // Set flag to indicate the button has been clicked
     }
 }

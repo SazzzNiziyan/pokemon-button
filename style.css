@@ -9,7 +9,12 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: sans-serif;
-  background-color: #1e1e1e;
+  background: url(125057-clouds-Rayquaza-Pokmon-anime-digital-art-sky-blue.png);
+  background-size: cover;
+  background-color: #1c1c1c82;
+  background-blend-mode: overlay;
+  background-position: top;
+  background-repeat: no-repeat;
   color: #1c1c1c;
   overflow: hidden;
 }
@@ -20,11 +25,11 @@ html, body {
   border: none;
   border-radius: 40px;
   text-shadow: black 2px 2px 6px;
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
   background-color: #345e33;
   color: rgb(251, 255, 7);
   cursor: pointer;
-  transition: background-color 0.5s;
+  transition: background-color 0.2s;
   position: relative;
   z-index: 90;
   transform: translate(-50%,-50%);
@@ -35,21 +40,22 @@ html, body {
 
 #button1:hover {
   background-color: #264a2b;
-  font-size: 35px;
+  font-size: 44px;
 }
 #button1:active {
   background-color: #b39606;
-  transform: scale(0.98);
+  font-size: 42px;
   transform: translate(-50%,-50%);
 }
 
 .img{
   height: 90px;
   position: absolute;
+  filter: brightness(1.12);
 }
 
 .mera{
-  height: 150px;
+  height: 100px;
   position: absolute;
   z-index: 99;
   top: 5%;
@@ -58,7 +64,7 @@ html, body {
   background: linear-gradient(yellow,white);
   border-radius: 20px;
   transform: translate(-50%);
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 1);
   animation: starting 1.2s cubic-bezier(0.175, 0.885, 0.32, 3.275);
 }
 
