@@ -1,0 +1,82 @@
+/* CSS Reset / Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  background-color: #1e1e1e;
+  color: #1c1c1c;
+  overflow: hidden;
+}
+
+#button1 {
+  padding: 42px 84px;
+  font-size: 44px;
+  border: none;
+  border-radius: 40px;
+  text-shadow: black 2px 2px 6px;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+  background-color: #345e33;
+  color: rgb(251, 255, 7);
+  cursor: pointer;
+  transition: background-color 0.5s;
+  position: relative;
+  z-index: 90;
+  transform: translate(-50%,-50%);
+  top: 60%;
+  left:50%;
+  animation: starting 1.2s cubic-bezier(0.175, 0.885, 0.32, 3.275);
+}
+
+#button1:hover {
+  background-color: #264a2b;
+  font-size: 35px;
+}
+#button1:active {
+  background-color: #b39606;
+  transform: scale(0.98);
+  transform: translate(-50%,-50%);
+}
+
+.img{
+  height: 90px;
+  position: absolute;
+}
+
+.mera{
+  height: 150px;
+  position: absolute;
+  z-index: 99;
+  top: 5%;
+  left:50%;
+  padding: 10px;
+  background: linear-gradient(yellow,white);
+  border-radius: 20px;
+  transform: translate(-50%);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.5);
+  animation: starting 1.2s cubic-bezier(0.175, 0.885, 0.32, 3.275);
+}
+
+.ri-volume-down-line, .ri-volume-mute-line {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+@keyframes starting {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+  
+}
